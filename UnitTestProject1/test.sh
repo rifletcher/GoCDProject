@@ -1,1 +1,1 @@
-dotnet test --logger:trx
+dotnet test --test-adapter-path:. --logger:nunit
