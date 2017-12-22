@@ -1,9 +1,9 @@
 using GoCDTest.Controllers;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 
 namespace UnitTestProject1
 {
-    [TestClass]
+    [TestFixture]
     public class UnitTest1
     {
         private readonly ValuesController _valuesController;
@@ -13,11 +13,11 @@ namespace UnitTestProject1
             _valuesController = new ValuesController();
         }
 
-        [TestMethod]
+        [Test]
         public void TestMethod1()
         {
             var result = _valuesController.Get();
-            Assert.IsNotNull(result);
+            Assert.IsNotNull(result, "I should not be Null");
         }
     }
 }
