@@ -13,6 +13,7 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.5.0" />
     <PackageReference Include="Nunit" Version="3.9.0" />
+    <PackageReference Include="NUnit.Console" Version="3.7.0" />
     <PackageReference Include="Nunit3TestAdapter" Version="3.9.0" />
     <PackageReference Include="NunitXml.TestLogger" Version="1.0.0" />
   </ItemGroup>
