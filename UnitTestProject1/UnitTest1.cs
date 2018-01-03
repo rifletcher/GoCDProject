@@ -24,7 +24,7 @@ namespace UnitTestProject1
         public void TestMethod2()
         {
             var result = _valuesController.Get();
-            Assert.IsNotNull(result, "I should not be Null");
+            Assert.IsNull(result, "I should not be Null");
         }
     }
 }
