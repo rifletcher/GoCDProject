@@ -17,7 +17,7 @@ namespace GoCDTest.Controllers
         }
 
         [HttpGet("{id}")]
-        public string Get(string id)
+        public string Get(int id)
         {
             return "value";
         }
