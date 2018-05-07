@@ -1,2 +1,2 @@
 # GoCDProject
-GoCDTest
+Test project for use in GoCD CI/CB
